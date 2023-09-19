@@ -1,0 +1,49 @@
+componentName: archloong
+
+welcomeStyleCalamares: false
+
+welcomeExpandingLogo: true
+
+# windowExpanding: normal
+windowExpanding: noexpand
+
+windowSize: 1200px,715px
+
+windowPlacement: center
+
+sidebar: widget
+
+navigation: widget
+
+strings:
+    productName:         ArchLinux
+    shortProductName:    ArchLinux
+    version:             Cassini_nova
+    shortVersion:        Cassini_nova
+    versionedName:       ArchLinux
+    shortVersionedName:  ArchLinux
+    bootloaderEntryName: ArchLinux
+
+images:
+    productLogo:         "icon.png"
+    productIcon:         "icon.png"
+    productWelcome:      "worldmap.png"
+    productBanner:       "release-name-logo.png"
+    #productWallpaper:    "wallpaper.png"
+
+slideshowAPI: 2
+
+style:
+   SidebarBackground:        "#31363b"
+   SidebarText:              "#ffffff"
+   SidebarTextCurrent:       "#7d7dfb"
+   SidebarBackgroundCurrent: "#31363b"
+
+slideshow:               "show.qml"
+
+# log feature
+
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
+    sizeLimit : -1
