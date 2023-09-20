@@ -118,6 +118,7 @@ Main() {
     _copy_files
 
     # Kill process that open files in the $chroot_path
+    killall -9 gpg-agent
     fuser -k $chroot_path
 
     _cleaner_msg info "cleaner_script.sh done."
