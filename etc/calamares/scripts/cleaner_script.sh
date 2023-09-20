@@ -117,6 +117,9 @@ Main() {
 
     _copy_files
 
+    # Kill process that open files in the $chroot_path
+    fuser -k $chroot_path
+
     _cleaner_msg info "cleaner_script.sh done."
 }
 
